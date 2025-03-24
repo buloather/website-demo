@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Table & Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: darkcyan;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        form {
+            width: 50%;
+            margin-top: 20px;
+            background-color: burlywood; 
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>E-commerce Product Table</h2>
+    <table>
+        <tr>
+            <th>E-commerce Firm</th>
+            <th>Icon</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Product Description</th>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="image/Amazon.png" alt="Amazon"></td>
+            <td>iPhone 14</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>128GB Storage</li>
+                    <li>Super Retina Display</li>
+                    <li>A15 Bionic Chip</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="image/Amazon.png" alt="Amazon"></td>
+            <td>MacBook Air M2</td>
+            <td>Computers</td>
+            <td>
+                <ul>
+                    <li>256GB SSD</li>
+                    <li>Retina Display</li>
+                    <li>Apple M2 Chip</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="image/Amazon.png" alt="Amazon"></td>
+            <td>Echo Dot</td>
+            <td>Smart Home</td>
+            <td>
+                <ul>
+                    <li>Alexa Voice Control</li>
+                    <li>Compact Design</li>
+                    <li>Improved Sound Quality</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="image/eBay.png" alt="eBay"></td>
+            <td>Samsung Galaxy S23</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>256GB Storage</li>
+                    <li>Dynamic AMOLED Display</li>
+                    <li>Snapdragon 8 Gen 2</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="image/eBay.png" alt="eBay"></td>
+            <td>Dell XPS 15</td>
+            <td>Computers</td>
+            <td>
+                <ul>
+                    <li>4K Touchscreen</li>
+                    <li>Intel i7 Processor</li>
+                    <li>16GB RAM</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="image/eBay.png" alt="eBay"></td>
+            <td>GoPro Hero 10</td>
+            <td>Cameras</td>
+            <td>
+                <ul>
+                    <li>5.3K Video Recording</li>
+                    <li>HyperSmooth Stabilization</li>
+                    <li>Waterproof</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Walmart</td>
+            <td><img src="image/Walmart.png" alt="Walmart"></td>
+            <td>Samsung 55" 4K TV</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>Crystal UHD Display</li>
+                    <li>HDR Support</li>
+                    <li>Smart TV Features</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Walmart</td>
+            <td><img src="image/Walmart.png" alt="Walmart"></td>
+            <td>KitchenAid Stand Mixer</td>
+            <td>Home Appliances</td>
+            <td>
+                <ul>
+                    <li>10-Speed Control</li>
+                    <li>Stainless Steel Bowl</li>
+                    <li>Multiple Attachments</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Walmart</td>
+            <td><img src="image/Walmart.png" alt="Walmart"></td>
+            <td>Instant Pot Duo</td>
+            <td>Kitchen</td>
+            <td>
+                <ul>
+                    <li>7-in-1 Functionality</li>
+                    <li>Programmable Pressure Cooker</li>
+                    <li>Stainless Steel Inner Pot</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>BestBuy</td>
+            <td><img src="image/BustBuy.png" alt="BestBuy"></td>
+            <td>Sony WH-1000XM5</td>
+            <td>Audio</td>
+            <td>
+                <ul>
+                    <li>Noise Cancelling</li>
+                    <li>30-Hour Battery Life</li>
+                    <li>Wireless Connectivity</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>BestBuy</td>
+            <td><img src="image/BustBuy.png" alt="BestBuy"></td>
+            <td>Logitech MX Master 3</td>
+            <td>Accessories</td>
+            <td>
+                <ul>
+                    <li>Ergonomic Design</li>
+                    <li>Precision Scroll Wheel</li>
+                    <li>USB-C Charging</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>BestBuy</td>
+            <td><img src="image/BustBuy.png" alt="BestBuy"></td>
+            <td>Canon EOS R5</td>
+            <td>Cameras</td>
+            <td>
+                <ul>
+                    <li>45MP Full-Frame Sensor</li>
+                    <li>8K Video Recording</li>
+                    <li>Dual Pixel Autofocus</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <h2>Customer Registration Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="South Africa">South Africa</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Sudan">Sudan</option>
+            <option value="South Korea">South Korea</option>
+            <option value="India">India</option>
+            
+        </select>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
+
