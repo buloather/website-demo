@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Table & Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        form {
+            width: 50%;
+            margin-top: 20px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>E-commerce Product Table</h2>
+    <table>
+        <tr>
+            <th>E-commerce Firm</th>
+            <th>Icon</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Product Description</th>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="icon.png" alt="Amazon"></td>
+            <td>iPhone 14</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>128GB Storage</li>
+                    <li>Super Retina Display</li>
+                    <li>A15 Bionic Chip</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="icon.png" alt="Amazon"></td>
+            <td>MacBook Air M2</td>
+            <td>Computers</td>
+            <td>
+                <ul>
+                    <li>256GB SSD</li>
+                    <li>Retina Display</li>
+                    <li>Apple M2 Chip</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td><img src="icon.png" alt="Amazon"></td>
+            <td>Echo Dot</td>
+            <td>Smart Home</td>
+            <td>
+                <ul>
+                    <li>Alexa Voice Control</li>
+                    <li>Compact Design</li>
+                    <li>Improved Sound Quality</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="icon.png" alt="eBay"></td>
+            <td>Samsung Galaxy S23</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>256GB Storage</li>
+                    <li>Dynamic AMOLED Display</li>
+                    <li>Snapdragon 8 Gen 2</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="icon.png" alt="eBay"></td>
+            <td>Dell XPS 15</td>
+            <td>Computers</td>
+            <td>
+                <ul>
+                    <li>4K Touchscreen</li>
+                    <li>Intel i7 Processor</li>
+                    <li>16GB RAM</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>eBay</td>
+            <td><img src="icon.png" alt="eBay"></td>
+            <td>GoPro Hero 10</td>
+            <td>Cameras</td>
+            <td>
+                <ul>
+                    <li>5.3K Video Recording</li>
+                    <li>HyperSmooth Stabilization</li>
+                    <li>Waterproof</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Alibaba</td>
+            <td><img src="icon.png" alt="Alibaba"></td>
+            <td>Smart Watch</td>
+            <td>Wearable</td>
+            <td>
+                <ul>
+                    <li>Heart Rate Monitor</li>
+                    <li>GPS Tracking</li>
+                    <li>Waterproof</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Alibaba</td>
+            <td><img src="icon.png" alt="Alibaba"></td>
+            <td>Wireless Earbuds</td>
+            <td>Accessories</td>
+            <td>
+                <ul>
+                    <li>Noise Cancelling</li>
+                    <li>Long Battery Life</li>
+                    <li>Bluetooth 5.0</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Alibaba</td>
+            <td><img src="icon.png" alt="Alibaba"></td>
+            <td>Portable Power Bank</td>
+            <td>Electronics</td>
+            <td>
+                <ul>
+                    <li>10,000mAh Capacity</li>
+                    <li>Fast Charging</li>
+                    <li>Lightweight Design</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <h2>Customer Registration Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
